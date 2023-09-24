@@ -1,7 +1,8 @@
-#ifndef SUMMATOR_REGISTER_TYPES_H
-#define SUMMATOR_REGISTER_TYPES_H
-
-void initialize_summator_types();
-void uninitialize_summator_types();
-
-#endif // SUMMATOR_REGISTER_TYPES_H
+#ifndef FLECS_REGISTER_TYPES_H
+#define FLECS_REGISTER_TYPES_H
+namespace simple
+{
+    void initialize();
+    void uninitialize();
+}
+#endif // FLECS_REGISTER_TYPES_H

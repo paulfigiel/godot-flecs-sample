@@ -1,6 +1,5 @@
 # Godot 4+ specific ignores
 .godot/
-game/bin/summator/*
 .sconsign*.dblite
 
 # Binaries
@@ -13,7 +12,6 @@ game/bin/summator/*
 *.dblite
 *.pdb
 *.lib
-bin
 *.config
 *.creator
 *.creator.user
@@ -21,3 +19,5 @@ bin
 *.includes
 *.idb
 *.exp
+.vscode
+.DS_Store

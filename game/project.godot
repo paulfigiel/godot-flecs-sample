@@ -1,3 +1,11 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
 config_version=5
 
 [application]
@@ -7,3 +15,7 @@ config/tags=PackedStringArray("gdextension", "template")
 run/main_scene="res://main.tscn"
 config/features=PackedStringArray("4.1")
 config/icon="res://icon.png"
+
+[filesystem]
+
+import/fbx/enabled=false
